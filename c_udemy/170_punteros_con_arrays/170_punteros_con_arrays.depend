@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1651431559 source:d:\dev\datasheets_repo\c\c_udemy\170_punteros_con_arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+

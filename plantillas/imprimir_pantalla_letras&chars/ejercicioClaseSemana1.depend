@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1630351350 source:e:\proyectos_programacion1\guiadeejercicios\ejercicioclasesemana1\main.c
+	"cabecera.h"
+
+1630351343 source:e:\proyectos_programacion1\guiadeejercicios\ejercicioclasesemana1\funciones.c
+
+1630351324 e:\proyectos_programacion1\guiadeejercicios\ejercicioclasesemana1\cabecera.h
+	<stdio.h>
+	<stdlib.h>
+
+1647404835 source:d:\dev\datasheets_repo\curso_c\ejercicios_progamación\ejercicios_semanales\ejercicio_clase2\funciones.c
+
+1647404835 source:d:\dev\datasheets_repo\curso_c\ejercicios_progamación\ejercicios_semanales\ejercicio_clase2\main.c
+	"cabecera.h"
+
+1650228013 d:\dev\datasheets_repo\curso_c\ejercicios_progamación\ejercicios_semanales\ejercicio_clase2\cabecera.h
+	<stdio.h>
+	<stdlib.h>
+

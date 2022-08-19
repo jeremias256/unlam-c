@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1650774971 source:d:\dev\datasheets_repo\c\c_codeblocks_curso\124_arrays_ejemplo\funciones.c
+	"header.h"
+
+1650775107 d:\dev\datasheets_repo\c\c_codeblocks_curso\124_arrays_ejemplo\header.h
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1650775169 source:d:\dev\datasheets_repo\c\c_codeblocks_curso\124_arrays_ejemplo\main.c
+	"header.h"
+

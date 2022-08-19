@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1632706431 source:e:\proyectos_programacion1\guiadeejercicios\ejemplosclase\clase3\structs\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+

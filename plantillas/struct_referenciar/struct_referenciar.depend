@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1647404835 source:d:\dev\datasheets_repo\c\ejerciciosprogamación\1 ejemplospdfs\punteros\referenciaraestructuras\main.c
+	<stdio.h>
+	<stdlib.h>
+

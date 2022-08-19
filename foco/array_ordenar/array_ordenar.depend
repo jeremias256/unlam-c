@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1632185757 source:e:\proyectos_programacion1\plantillas\ordenarvector\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1652662659 source:d:\dev\datasheets_repo\c\plantillas\array_ordenar\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1652929706 source:d:\dev\datasheets_repo\c\foco\array_ordenar\main.c
+	<stdio.h>
+	<stdlib.h>
+

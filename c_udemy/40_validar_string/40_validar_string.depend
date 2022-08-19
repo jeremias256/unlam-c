@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1647817374 source:d:\dev\datasheets_repo\c\c_codeblocks\36_califaciones_aluno\40_validar_string\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

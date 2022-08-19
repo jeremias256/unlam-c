@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1651443562 source:d:\dev\datasheets_repo\c\temas_a_revisar\imprimir_puntero\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1651726397 source:d:\dev\datasheets_repo\c\foco\punteros_imprimir\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1649979190 source:d:\dev\datasheets_repo\curso_c\ejercicios_progamación\guia_ejercicios\tp1_ejercico3_funciones_math\main.c
+	"header.h"
+
+1649979077 d:\dev\datasheets_repo\curso_c\ejercicios_progamación\guia_ejercicios\tp1_ejercico3_funciones_math\header.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1649979308 source:d:\dev\datasheets_repo\curso_c\ejercicios_progamación\guia_ejercicios\tp1_ejercico3_funciones_math\funciones.c
+	"header.h"
+
+1650601604 source:d:\dev\datasheets_repo\c\ejercicios_progamación\guia_ejercicios\tp1_ejercicio3_funciones_math\funciones.c
+	"header.h"
+
+1650601604 d:\dev\datasheets_repo\c\ejercicios_progamación\guia_ejercicios\tp1_ejercicio3_funciones_math\header.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1650601604 source:d:\dev\datasheets_repo\c\ejercicios_progamación\guia_ejercicios\tp1_ejercicio3_funciones_math\main.c
+	"header.h"
+

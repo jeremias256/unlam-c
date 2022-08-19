@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1648427685 source:d:\dev\datasheets_repo\c\c_codeblocks\41_borrar_pantalla\12_operaciones_aritméticas\main.c
+	<stdio.h>
+	<stdlib.h>
+

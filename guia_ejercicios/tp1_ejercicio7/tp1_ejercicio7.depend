@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1649907491 source:d:\dev\datasheets_repo\curso_c\ejercicios_progamación\guia_ejercicios\tp1_ejercicio7\main.c
+	"header.h"
+
+1649907339 d:\dev\datasheets_repo\curso_c\ejercicios_progamación\guia_ejercicios\tp1_ejercicio7\header.h
+	<stdio.h>
+	<stdlib.h>
+
+1649735258 d:\dev\datasheets_repo\curso_c\ejercicios_progamación\guia_ejercicios\tp1_ejercicio7\funciones.c
+	"header.h"
+
+1649907450 d:\dev\datasheets_repo\curso_c\ejercicios_progamación\guia_ejercicios\tp1_ejercicio7\header2.h
+

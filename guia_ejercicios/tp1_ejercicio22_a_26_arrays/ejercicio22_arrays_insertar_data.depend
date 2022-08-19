@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1652242367 source:d:\dev\datasheets_repo\c\guia_ejercicios\ejercicio22_arrays_insertar_data\main.c
+	"header.h"
+
+1652242255 d:\dev\datasheets_repo\c\guia_ejercicios\ejercicio22_arrays_insertar_data\header.h
+
+1652242353 source:d:\dev\datasheets_repo\c\guia_ejercicios\ejercicio22_arrays_insertar_data\funciones.c
+	"header.h"
+
+1653266559 source:d:\dev\datasheets_repo\c\guia_ejercicios\tp1_ejercicio22_a_26_arrays\funciones.c
+	"header.h"
+
+1653228729 d:\dev\datasheets_repo\c\guia_ejercicios\tp1_ejercicio22_a_26_arrays\header.h
+
+1653269530 source:d:\dev\datasheets_repo\c\guia_ejercicios\tp1_ejercicio22_a_26_arrays\main.c
+	"header.h"
+

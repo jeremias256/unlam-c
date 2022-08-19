@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1651464263 source:d:\dev\datasheets_repo\c\foco\punteros_strcpy\main.c
+	<stdio.h>
+	<stdlib.h>
+
