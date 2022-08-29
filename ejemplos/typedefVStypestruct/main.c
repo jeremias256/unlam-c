@@ -15,7 +15,8 @@ int main()
     entero numero=5;
     printf("%d\n",numero);
 
-    alumno alum;
+    alumno alum;//con typedef struct
+    struct alumno alum; //sin con typedef struct
     printf("Cargue los datos del alumno: ");
     scanf("%d%d",&alum.edad,&alum.peso);
 

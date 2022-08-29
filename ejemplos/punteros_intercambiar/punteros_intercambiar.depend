@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1661749128 source:d:\dev\datasheets_repo\c\ejemplos\punteros_intercambiar\main.c
+	<stdio.h>
+	<stdlib.h>
+

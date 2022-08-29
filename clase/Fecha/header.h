@@ -8,5 +8,4 @@
 
 void test();
 void testTwo();
-
-#endif
+#endif // HEADER_H
