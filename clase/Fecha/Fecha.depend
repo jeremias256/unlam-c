@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1661752658 source:d:\dev\datasheets_repo\c\clase\fecha\funciones.c
+	"header.h"
+
+1661752760 d:\dev\datasheets_repo\c\clase\fecha\header.h
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1661752977 source:d:\dev\datasheets_repo\c\clase\fecha\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+

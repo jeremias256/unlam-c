@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1662036248 source:d:\dev\datasheets_repo\c\clase\vectores\main.c
+	"header.h"
+
+1662036061 d:\dev\datasheets_repo\c\clase\vectores\header.h
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1662036259 source:d:\dev\datasheets_repo\c\clase\vectores\funciones.c
+	"header.h"
+
