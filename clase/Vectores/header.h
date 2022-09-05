@@ -19,6 +19,13 @@ bool vecEliminarOrd( int *vec, int *cec, int dato);
 //desordenado hay que buscarlo hasta el fin del vec
 //ordenado recorre hasta encontrar uno mayor -> eficiente
 int vecEliminarDesordenado();//eliminar en v desordenado
+//funcion buscar en vector
+bool vecBuscar(int *vec, int cec, int dato);
+//ordenar vectorAscendente
+void vecOrdenarAsc(int *vec, int ce);
+void vecOrdenarDes(int *vec, int ce);
 void mostrarVector(int *vec, int cec);
+int vecCantOcurrencias(int *vec, int cec, int dato);
+int vecElimnarDuplicados(int *vec, int *cec);//menor desplazamiento posible
 
 #endif // HEADER_H
