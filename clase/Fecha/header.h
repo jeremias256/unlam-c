@@ -17,17 +17,17 @@ typedef struct {
     int anio;
 }Fecha;
 
-void ingresarFechaValida(Fecha *fecha);
-int esFechaValida(const Fecha *f);
+void ingresarFechaValida(Fecha *fecha);//OK
+int esFechaValida(const Fecha *f);     //OK
 int cantDiasMes(int mes, int anio);
-//int esBisiesto(int anio);
+//int esBisiesto(int anio); ahora es una macro
 
 //tarea clase 2 virtual
-void sumarDiasAFechaInSitu(Fecha* f, int dias);
-void sumarDiasAFecha(const Fecha* f, int dias, Fecha* fSuma);
-void restarDiasAFechaInSitu(Fecha* f, int dias);
-void restarDiasAFecha(const Fecha* f, int dias, Fecha* fSuma);
-int diferenciaEntreFechas(const Fecha* f1, const Fecha* f2);
+void sumarDiasAFechaInSitu( Fecha *f, int dias);// Fecha nuevaFecha
+void sumarDiasAFecha( const Fecha *f, int dias, Fecha *fSuma);//fSuma output
+void restarDiasAFechaInSitu(Fecha *f, int dias);
+void restarDiasAFecha(const Fecha *f, int dias, Fecha* fResta);
+int diferenciaEntreFechas(const Fecha *f1, const Fecha* f2);
 int diaDeLaSemana(const Fecha* f);
 
 #endif // FECHA_H
