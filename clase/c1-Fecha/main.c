@@ -10,7 +10,7 @@ int main()
     printf("%d/%d/%d \n", f.dia, f.mes, f.anio);
     printf("\nFecha correcta :)\n");
 
-    puts("Ingrese 1 para sumar");
+    puts("Ingrese: \n1 para sumar dias al mes");
     puts("0 para salir");
     scanf("%d",&seleccion);
 
@@ -27,7 +27,7 @@ int main()
             printf("%d/%d/%d \n", f.dia, f.mes, f.anio);
             break;
         }
-        puts("Ingrese 1 para sumar dias al mes");
+        puts("Ingrese: \n1 para sumar dias al mes");
         puts("0 para salir");
         scanf("%d",&seleccion);
     }

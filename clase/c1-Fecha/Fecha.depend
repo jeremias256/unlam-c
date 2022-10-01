@@ -10,3 +10,14 @@
 1662523094 source:d:\dev\datasheets_repo\c\clase\fecha\main.c
 	"header.h"
 
+1664662632 source:d:\dev\datasheets_repo\c\clase\c1-fecha\main.c
+	"header.h"
+
+1664651822 d:\dev\datasheets_repo\c\clase\c1-fecha\header.h
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1664662552 source:d:\dev\datasheets_repo\c\clase\c1-fecha\funciones.c
+	"header.h"
+
