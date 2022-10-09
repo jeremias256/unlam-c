@@ -1,9 +1,5 @@
 #include "header.h"
 
-void test()
-{
-    printf("Test works! \n");
-}
 //era bool pero si tengo mas de 2 return y quiero indicar la razon
 //necesito retornar INT
 int vecInsertarEnOrden( int *vec, int *cec, int capacidad, int dato )

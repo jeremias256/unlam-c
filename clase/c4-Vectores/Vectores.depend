@@ -11,3 +11,15 @@
 1662036259 source:d:\dev\datasheets_repo\c\clase\vectores\funciones.c
 	"header.h"
 
+1665026732 source:d:\dev\proyectos\4 repo\unlam_c\clase\c4-vectores\funciones.c
+	"header.h"
+
+1665026719 d:\dev\proyectos\4 repo\unlam_c\clase\c4-vectores\header.h
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1664855702 source:d:\dev\proyectos\4 repo\unlam_c\clase\c4-vectores\main.c
+	"header.h"
+

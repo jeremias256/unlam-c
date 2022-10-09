@@ -39,7 +39,8 @@ int main()
 
     bool elimino = vecEliminarOrd(vec, &cec, dato);
 
-    elimino ? printf("El valor %d se elimino correctamente.\n",dato)
+    (elimino)
+    ? printf("El valor %d se elimino correctamente.\n",dato)
     : printf("El valor %d no existe en el vector.\n",dato);
 
     puts("Vector despues de eliminar");
