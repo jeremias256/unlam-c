@@ -20,11 +20,12 @@ void ingresarFechaValida(Fecha *fecha);//OK
 //int esBisiesto(int anio); ahora es una macro
 
 //tarea clase 2 virtual
-void sumarDiasAFechaInSitu( Fecha *f, int dias);// Fecha nuevaFecha
-void sumarDiasAFecha( const Fecha *f, int dias, Fecha *fSuma);//fSuma output
-void restarDiasAFechaInSitu(Fecha *f, int dias);
-void restarDiasAFecha(const Fecha *f, int dias, Fecha* fResta);
-int diferenciaEntreFechas(const Fecha *f1, const Fecha* f2);
+void sumarDiasAFechaInSitu( Fecha *fDesde, int dias);// Fecha nuevaFecha
+void sumarDiasAFecha( const Fecha *fDesde, int dias, Fecha *fSuma);
+//ingreso la dir de fSuma
+void restarDiasAFechaInSitu(Fecha *fDesde, int dias);
+void restarDiasAFecha(const Fecha *fDesde, int dias, Fecha *fResta);
+int diferenciaEntreFechas(const Fecha *fDesde, const Fecha *fHasta);
 int diaDeLaSemana(const Fecha* f);
 
 #endif
