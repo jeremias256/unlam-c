@@ -12,19 +12,26 @@
 #define VEC_LLENO   1
 #define DUPLICADO   2
 
-int vecInsertarEnOrden( int *vec, int *cec, int capacidad, int dato );
-bool vecEliminarOrd( int *vec, int *cec, int dato);
-//elinar por valor o por posicion
-void mostrarVector(int *vec, int cec);
+void mostrarVector(int *vec, int ce);
+
+//admite duplicados preguntar si existe o no para evitar movimientos en el vector
+//recorre desde el principio
+int vecInsertarEnOrden( int *vec, int *ce, int capacidad, int dato );
+
+//eliminar por valor o por posicion
+bool vecEliminarOrd( int *vec, int *ce, int dato);
+
 //desordenado hay que buscarlo hasta el fin del vec
 //ordenado recorre hasta encontrar uno mayor -> eficiente
-int vecEliminarDesordenado();//eliminar en v desordenado
+//eliminar en v desordenado
+int vecEliminarDesordenado();
+
 //funcion buscar en vector
-bool vecBuscar(int *vec, int cec, int dato);
-//ordenar vectorAscendente
+bool vecBuscar(int *vec, int ce, int dato);
+
 void vecOrdenarAsc(int *vec, int ce);
 void vecOrdenarDes(int *vec, int ce);
-int vecCantOcurrencias(int *vec, int cec, int dato);
-int vecElimnarDuplicados(int *vec, int *cec);//menor desplazamiento posible
+int vecCantOcurrencias(int *vec, int ce, int dato);
+int vecElimnarDuplicados(int *vec, int *ce);//menor desplazamiento posible
 
 #endif // HEADER_H
