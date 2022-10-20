@@ -5,7 +5,7 @@ void mostrarVector(int *vec, int ce)
     for(int i=0; i < ce; i++)
         printf("%d ", vec[i]);
 
-    putchar('\n');
+    printf("\n");
 }
 
 //era bool pero si tengo mas de 2 return y quiero indicar la razon

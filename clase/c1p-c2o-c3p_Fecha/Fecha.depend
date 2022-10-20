@@ -21,3 +21,14 @@
 1664749454 source:d:\dev\datasheets_repo\c\clase\c1-fecha\funciones.c
 	"header.h"
 
+1665436652 source:d:\dev\proyectos\4 repo\unlam_c\clase\c1p-c2o-c3p_fecha\funciones.c
+	"header.h"
+
+1665436652 d:\dev\proyectos\4 repo\unlam_c\clase\c1p-c2o-c3p_fecha\header.h
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1665436652 source:d:\dev\proyectos\4 repo\unlam_c\clase\c1p-c2o-c3p_fecha\main.c
+	"header.h"
+
