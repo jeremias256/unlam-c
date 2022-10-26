@@ -23,7 +23,7 @@ int main()
     agregar(numero);
     printf("Valor despues de la función : %d\n ",numero);
 
-    printf("acentos %c %c %c %c %c",160,130,161,162,163);
+    //printf("acentos %c %c %c %c %c",160,130,161,162,163);
 
     return 0;
 }

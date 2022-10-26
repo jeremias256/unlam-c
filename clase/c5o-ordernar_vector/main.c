@@ -5,7 +5,7 @@
 
 void mostrarVector (int *vec,int ce);
 void intercambiar(int *izq, int *der);
-int buscarMenor(int *vec, int desde, int hasta);
+int buscarMenor(int *desde, int *hasta);
 
 void ordernarPorBurbujeo(int *vec,int ce);
 void ordernarPorSeleccion (int *vec, int ce);
@@ -13,9 +13,10 @@ void ordernarPorInsercion(int *vec, int ce);
 
 int main()
 {
-    int vecDesordenado[] = {7,26,8,15,9,-1,999,2},
+    int vecDesordenado[] = {7,1,8,15,9,-1,999,2},
         seleccionOrdenamiento;
 
+    //intercambios "baratas"
     puts("Vector antes de ordenar");
     mostrarVector(vecDesordenado,8);
 
@@ -23,10 +24,15 @@ int main()
     //intercambios = 0.5 * ce^2 = 40.5
     //comparaciones = 0.5 * ce^2 = 40.5
     puts("1: Burbujeo");
-    //intercambios = ce
-    //comparaciones = ce^2
+
+    //intercambios = ce = 8
+    //comparaciones = 0.5 * ce^2 = 64
     puts("2: Seleccion");
+
+    //desplazamientos = 0.5 * ce^2
+    //comparaciones = 0.5 ce^2
     puts("3: Insercion");
+
     scanf("%d",&seleccionOrdenamiento);
     switch(seleccionOrdenamiento)
     {
@@ -70,27 +76,31 @@ void intercambiar(int *izq,int *der )
     *der = aux;
 }
 
-int buscarMenor(int *vec, int desde, int hasta)
+int buscarMenor(int *desde, int *hasta)
 {
-    int min=desde,j;
-    for(j = desde+1; j <= hasta; j++)
+    //"desde" es el primer elemento del array
+    //desde se actualiza en cada pasada
+    //a medida de intercambios es mas chico el array
+    int *min=desde;
+    for(int *j = desde+1; j <= hasta; j++)
     {
-        if(vec[j]<vec[min])
-        {
+        if(*j < *min)
             min=j;
-        }
     }
     return min;
 }
 
-void ordernarPorBurbujeo(int *vec, int ce)//poco eficiente muchos movimientos
+//poco eficiente muchos movimientos y comparaciones
+//puede saber cuando no hay intercambios
+//ultima pasada se ordenan 2 elementos
+void ordernarPorBurbujeo(int *vec, int ce)
 {
     int i=1, j, intercambios = 1;
 
     while(intercambios && i < ce)
     {
         intercambios = 0;
-        for(j=0; j<ce-i; j++)
+        for(j=0; j < ce; j++)
         {
             if(vec[j] > vec[j+1])
             {
@@ -102,19 +112,51 @@ void ordernarPorBurbujeo(int *vec, int ce)//poco eficiente muchos movimientos
 
 }
 
+//busca el menor  lo coloca en la pos menor
+//con un intercambio
+//a medida que hacen intercambios es mas chico el array
+//ultima pasada se ordenan 2 elementos 8elementos 7 pasadas
 void ordernarPorSeleccion (int *vec, int ce)
 {
-    int m,i;
-    for(i=0; i<ce-1; i++)
+    //refactorizado con punteros en lugar de usar variables
+
+
+    int *menor,
+        // 8 elementos -1 corrige inicio en 0
+        *ultimo_elem = vec + (ce-1);// vec=0 + 7 = ultima pos  ARITMETICA DE *p
+    //8 elementos hace 7 vueltas ya que en la ultima ordena 2
+    //6 vueltas ya inicia en 0 podria ser ultimo_elem -2
+    for(int *i = vec; i < ultimo_elem; i++)
     {
-        m = buscarMenor(vec,i,ce);
-        if(m!=i)
-            intercambiar(&vec[i], &vec[m]);
+        //buscarMenor(vec,i,ultimo_elem); no necesito el vector por que uso direcciones
+        menor = buscarMenor(i,ultimo_elem);
+        if(menor!=i)
+            //intercambiar(&vec[i], &vec[menor]);
+            intercambiar(i, menor); //refactorizo por direcciones
     }
 }
 
+//inserciones sucesivas
+//desplazamiento>intercambiox3
 void ordernarPorInsercion(int *vec, int ce)
 {
+    /*int *ultimo_elem = vec + (ce-1);
+    //int guardo_pos_izq,elemento_der_aux;
+    int *elem_izq, *elem_der;
+    int *aux;
+    for(int *i=vec+1; i<=ultimo_elem; i++)
+    {
+        elem_der = i;
+        elem_izq = i-1;
+
+        while(elem_izq >= vec && *elem_der < *elem_izq)
+        {
+            i=elem_izq;
+            i--;
+            i=elem_der;
+        }
+        i=elem_der;
+    }*/
     int i,e_izq,e_der;
 
     for(i=1; i<ce; i++)
@@ -128,4 +170,5 @@ void ordernarPorInsercion(int *vec, int ce)
         }
         vec[e_izq+1]=e_der;
     }
+
 }

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1660953356 source:d:\dev\proyectos\repo\unlam_c\c_udemy\168_paso_de_param_por_ref\main.c
+	<stdio.h>
+	<stdlib.h>
+

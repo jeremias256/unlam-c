@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 // Recibo un array y lo llena
-void llenarArray(int vec[], int dimension);
+void llenarArray(int *vec, int dimension);
 
 int main()
 {
@@ -22,12 +22,14 @@ int main()
     return 0;
 }
 
-void llenarArray(int vec[], int dimension)
+void llenarArray(int *puntero, int dimension)
 {
-    int i;
-    for(i=0; i<dimension; i++)
+    int *ult = puntero + (dimension-1);
+
+    for(int *i=puntero; i<=ult; i++)
     {
         printf("\n valor de [%d] del array, ",i);
-        scanf("%d",&vec[i]);
+        scanf("%d",puntero); //*puntero MAL cotenido ?  &puntero MAL dir de la dir
+        puntero++;
     }
 }
