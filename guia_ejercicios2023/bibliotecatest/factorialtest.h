@@ -1,0 +1,6 @@
+#ifndef FACTORIALTEST_H_INCLUDED
+#define FACTORIALTEST_H_INCLUDED
+
+double factorial(int);
+
+#endif // FACTORIALTEST_H_INCLUDED
