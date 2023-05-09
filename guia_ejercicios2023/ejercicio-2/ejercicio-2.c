@@ -1,29 +1,20 @@
 
 #include "ejercicio-2.h"
 
-void mensaje()
-{
-    puts("Mensaje ejercicio-2");
-}
-
 double factorial(int num)
 {
-    if(num==0)
-        return 1;
-    else
+    double resultado = 1;
+    while(num>1)
     {
-        double calculo = 1, i;
-        for(i=1;i<=num;i++)
-        {
-            calculo *= i;
-        }
-        return calculo;
+        resultado*=num;
+        n--;
     }
+    return resultado;
 }
 
 double combinatoria(int m, int n)
 {
-    int resta = m-n;
-    double calculo = (factorial(m)/(factorial(n)*factorial(resta)));
-    return calculo;
+    if (n>m)
+        return 0;
+    return factorial(m)/(factorial(n)*factorial(m-n));
 }

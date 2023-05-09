@@ -1,12 +1,10 @@
-#include <stdio.h>
-#include <stdlib.h>
 
 #include "ejercicio-2.h"
-
 
 int main()
 {
     mensaje();
+
     int m=5, n=4;
     double resultado;
 

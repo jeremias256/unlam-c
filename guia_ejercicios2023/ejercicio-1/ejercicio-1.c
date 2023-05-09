@@ -1,21 +1,13 @@
-#include "ejercicio-1.h"
 
-void mensaje()
-{
-    puts("mensaje");
-}
+#include "ejercicio-1.h"
 
 double factorial(int num)
 {
-    if(num<0)
-        return 1;
-    else
+    double resultado = 1;
+    while(num>1)
     {
-        double calculo = 1, i;
-        for(i=1;i<=num;i++)
-        {
-            calculo *= i;
-        }
-        return calculo;
+        resultado*=num;
+        num--;
     }
+    return resultado;
 }

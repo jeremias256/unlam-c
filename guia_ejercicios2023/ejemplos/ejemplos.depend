@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1683598892 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\ejemplos\macros_utiles.c
+	"macros_utiles.h"
+
+1683600072 d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\ejemplos\macros_utiles.h
+
+1683600193 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\ejemplos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"macros_utiles.h"
+

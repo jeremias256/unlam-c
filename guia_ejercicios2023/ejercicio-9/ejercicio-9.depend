@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1683675052 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\ejercicio-9\ejercicio-9.c
+	"ejercicio-9.h"
+
+1683674980 d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\ejercicio-9\ejercicio-9.h
+	<stdio.h>
+	<stdlib.h>
+

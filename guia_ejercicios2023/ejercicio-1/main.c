@@ -1,8 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
 
 #include "ejercicio-1.h"
-
 
 int main()
 {

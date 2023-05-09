@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1683668355 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\ejercicio-5\ejercicio-5.c
+	"ejercicio-5.h"
+
+1683667742 d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\ejercicio-5\ejercicio-5.h
+	<stdio.h>
+	<stdlib.h>
+
+1683670206 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\ejercicio-5\main.c
+	"ejercicio-5.h"
+
