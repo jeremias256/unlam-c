@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1694979401 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\arrays\main.c
+	"arrays.h"
+
+1694979231 d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\arrays\arrays.h
+	<stdio.h>
+	<stdlib.h>
+
+1694979350 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\arrays\arrays.c
+	"arrays.h"
+

@@ -3,7 +3,7 @@
 
 int main()
 {
-    int x = 3;
+    int x = 4;
 
     printf("\n e a la (%d) = %.10f", x, eALaX(x));
     return 0;

@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1589588934 source:c:\users\federico.pezzola\desktop\programacion\ordgenerico\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1602030075 source:c:\fede\programacion\ordgenerico\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../Biblioteca/vectores.h"
+
+1621381096 c:\fede\programacion\biblioteca\vectores.h
+	<stddef.h>
+
+1621381118 source:c:\fede\programacion\biblioteca\vectores.c
+	"vectores.h"
+	<string.h>
+	<stdlib.h>
+
+1632534270 source:d:\repositorios\proyectos\universidad\unlam-c\ejemplos_profesor\ordgenerico\biblioteca\vectores.c
+	"vectores.h"
+	<string.h>
+	<stdlib.h>
+
+1632534270 d:\repositorios\proyectos\universidad\unlam-c\ejemplos_profesor\ordgenerico\biblioteca\vectores.h
+	<stddef.h>
+
+1632534278 source:d:\repositorios\proyectos\universidad\unlam-c\ejemplos_profesor\ordgenerico\ordgenerico\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../Biblioteca/vectores.h"
+

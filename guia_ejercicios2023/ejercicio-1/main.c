@@ -17,5 +17,6 @@ int main()
     resultado = factorial(numero);
 
     printf("El resultado del factorial de %d es : %.01f", numero, resultado );
+
     return 0;
 }

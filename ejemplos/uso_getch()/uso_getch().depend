@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1648430860 source:d:\dev\datasheets_repo\c\ejemplos\uso_getch()\main.c
-	<stdio.h>
-	<stdlib.h>
-	<conio.h>
-

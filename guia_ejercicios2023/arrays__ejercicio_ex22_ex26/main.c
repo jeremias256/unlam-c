@@ -1,3 +1,4 @@
+
 #include "header.h"
 
 int main()
@@ -17,11 +18,11 @@ int main()
     mostrar_vector(vec,10);
     printf("\n");
 
-    printf("Array despues de insertar valor: ");
-    insertar(vec,10,5);
+//    printf("Array despues de insertar valor: ");
+//    insertar(vec,10,5);
 
-    mostrar_vector(vec,11);
-    printf("\n");
+//    mostrar_vector(vec,11);
+//    printf("\n");
 
     /*printf("Array Despues de borrar valor en pos %d: ");
     eliminar_elemento(vec,tam,4);
@@ -29,10 +30,10 @@ int main()
     printf("\n");
     tam--;*/
 
-    printf("Eliminar posi en %d vector: ",posi);
+    /*printf("Eliminar posi en %d vector: ",posi);
     acomodar(vec,11,4);
     mostrar_vector(vec,10);
-    printf("\n");
+    printf("\n");*/
 
     return 0;
 }

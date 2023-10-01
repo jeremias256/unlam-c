@@ -1,4 +1,17 @@
+
 #include "header.h"
+
+void mostrar_vector(int *vec, int ce)
+{
+    int i;
+    printf("\n");
+    for(i=0;i<ce;i++)
+    {
+        printf("[%d]",*vec);
+        vec++;
+    }
+    printf("\n");
+}
 
 void ordernar_por_insercion(int *vec, int ce)
 {
@@ -16,7 +29,6 @@ void ordernar_por_insercion(int *vec, int ce)
         vec[e_izq+1]=e_der;
     }
 }
-
 void insertar(int *vec, int ce,int valor)
 {
     int i = ce;
@@ -26,18 +38,6 @@ void insertar(int *vec, int ce,int valor)
         i--;
     }
     vec[i]=valor;
-}
-
-void mostrar_vector(int *vec, int ce)
-{
-    int i;
-    printf("\n");
-    for(i=0;i<ce;i++)
-    {
-        printf("[%d]",*vec);
-        vec++;
-    }
-    printf("\n");
 }
 
 void eliminar_elemento(int *vec, int ce, int pos)

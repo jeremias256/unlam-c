@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1695009971 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\lista estática\main.c
+	"listaEstatica.h"
+
+1695009513 d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\lista estática\listaestatica.h
+	<stdio.h>
+	<stdlib.h>
+
+1695009789 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\lista estática\listaestatica.c
+	"listaEstatica.h"
+

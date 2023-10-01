@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1647404835 source:d:\dev\datasheets_repo\c\ejerciciosprogamación\plantillas\stringhfunciones\main.c
-	<stdio.h>
-	<conio.h>
-	<string.h>
-

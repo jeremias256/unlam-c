@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1694405538 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\fecha\main.c
+	"fecha.h"
+
+1694402148 d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\fecha\fecha.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1694833919 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\fecha\fecha.c
+	"fecha.h"
+

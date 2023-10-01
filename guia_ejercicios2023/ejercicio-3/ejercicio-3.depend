@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1683658592 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\ejercicio-3\main.c
+1693169473 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\ejercicio-3\main.c
 	"ejercicio-3.h"
 
 1683560697 d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\bibliotecas\saludar.h
 
-1683658487 d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\ejercicio-3\ejercicio-3.h
+1693166204 d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\ejercicio-3\ejercicio-3.h
 	<stdio.h>
 	<stdlib.h>
 
-1683658613 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\ejercicio-3\ejercicio-3.c
+1693169280 source:d:\repositorios\proyectos\universidad\unlam-c\guia_ejercicios2023\ejercicio-3\ejercicio-3.c
 	"ejercicio-3.h"
 

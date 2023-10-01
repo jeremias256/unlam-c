@@ -3,15 +3,17 @@
 
 double eALaX(int exp)
 {
-    double auxiliar = TOL;
-    double valor_termino = 1, resultado = 1;
-    int cant_terminos = 1;
+    double valorTermino = 1, resultado = 1;
+    int cantTerminos = 1;
 
-    while(valor_termino>TOL)
+    while(valorTermino>TOL)
     {
-        valor_termino *= ((double) exp)/cant_terminos;
-        resultado += valor_termino;
-        cant_terminos++;
+        valorTermino *= ((double) exp)/cantTerminos;
+        resultado += valorTermino;
+        cantTerminos++;
+        /*valorTermino = (calcularExponente(exp, cantTerminos)/factorial(cantTerminos));
+        resultado += valorTermino;
+        cantTerminos++;*/
     }
     return resultado;
 }
